@@ -1,0 +1,41 @@
+# --- NGÔI THỨ NHẤT ---
+i=ta
+me=ta
+my=của ta
+mine=của ta
+myself=chính ta
+we=chúng ta
+us=chúng ta
+our=của chúng ta
+
+# --- NGÔI THỨ HAI ---
+you=ngươi
+your=của ngươi
+yours=của ngươi
+yourself=chính ngươi
+
+# --- NGÔI THỨ BA ---
+he=hắn
+him=hắn
+his=của hắn
+himself=chính hắn
+she=nàng
+her=nàng
+hers=của nàng
+herself=chính nàng
+it=nó
+its=của nó
+they=bọn họ
+them=bọn họ
+their=của bọn họ
+
+# --- GIA ĐÌNH & XƯNG HÔ ---
+brother=huynh đệ
+sister=tỷ muội
+father=phụ thân
+mother=mẫu thân
+son=con trai
+daughter=con gái
+husband=phu quân
+wife=nương tử
+master=sư phụ

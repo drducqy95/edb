@@ -1,0 +1,124 @@
+# --- TỪ VỰNG CỐT LÕI (Sửa lỗi & Số nhiều) ---
+report=báo cáo
+reports=các báo cáo
+show=cho thấy
+shows=cho thấy
+huge=khổng lồ
+revenue=doanh thu
+revenues=các khoản thu
+developer=lập trình viên
+developers=các lập trình viên
+need=cần
+needs=cần
+fix=sửa chữa
+bug=lỗi
+bugs=các lỗi
+database=cơ sở dữ liệu
+tech=công nghệ
+project=dự án
+projects=các dự án
+manager=quản lý
+customer=khách hàng
+customers=các khách hàng
+game=trò chơi
+games=các trò chơi
+
+# --- TRỢ ĐỘNG TỪ ---
+will=sẽ
+have=đã
+has=đã
+had=đã
+been=được
+being=đang bị
+be=thì
+is=là
+am=là
+are=là
+was=là
+were=là
+can=có thể
+could=có thể
+should=nên
+must=phải
+
+# --- ĐỘNG TỪ BẤT QUY TẮC (V2, V3) ---
+went=đi
+gone=đi
+saw=nhìn thấy
+seen=nhìn thấy
+ate=ăn
+eaten=ăn
+took=lấy
+taken=lấy
+bought=mua
+thought=nghĩ
+spoke=nói
+spoken=nói
+knew=biết
+known=biết
+made=làm
+done=làm
+got=lấy
+gotten=lấy
+
+# --- TỪ VỰNG THÔNG DỤNG (V1) ---
+play=chơi
+run=chạy
+go=đi
+sleep=ngủ
+work=làm việc
+learn=học
+love=yêu
+like=thích
+watch=xem
+look=nhìn
+listen=nghe
+speak=nói
+talk=trò chuyện
+use=sử dụng
+create=tạo ra
+call=gọi
+
+# --- GIỚI TỪ & LIÊN TỪ ---
+and=và
+but=nhưng
+or=hoặc
+so=cho nên
+because=bởi vì
+if=nếu
+when=khi
+in=trong
+on=trên
+at=tại
+from=từ
+to=tới
+with=với
+without=không có
+for=cho
+by=bởi
+of=của
+about=về
+
+# --- CHUYÊN NGÀNH IT ---
+server=máy chủ
+frontend=giao diện
+backend=hệ thống
+algorithm=thuật toán
+code=mã lệnh
+variable=biến số
+array=mảng
+string=chuỗi
+compile=biên dịch
+user=người dùng
+network=mạng lưới
+access=truy cập
+cloud=đám mây
+
+# --- CHUYÊN NGÀNH KINH TẾ ---
+profit=lợi nhuận
+market=thị trường
+stock=cổ phiếu
+contract=hợp đồng
+budget=ngân sách
+strategy=chiến lược
+brand=thương hiệu

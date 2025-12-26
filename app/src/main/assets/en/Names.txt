@@ -1,0 +1,13 @@
+Bill=Bill
+Rose=Rose
+Trump=Trump
+London=Luân Đôn
+White House=Nhà Trắng
+Paris=Paris
+Vietnam=Việt Nam
+Google=Google
+Samsung=Samsung
+Facebook=Facebook
+Excalibur=Thanh Kiếm Excalibur
+Harry Potter=Harry Potter
+Bill Gates=Bill Gates

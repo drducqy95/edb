@@ -1,0 +1,55 @@
+# ========================================================
+# 1. QUY TẮC LOẠI BỎ TỪ DƯ THỪA (Articles)
+# ========================================================
+# Bỏ qua The/the, A/a, An/an khi đứng trước danh từ
+(The|the|A|a|An|an)\s+(\w+)=$2
+
+# ========================================================
+# 2. QUY TẮC ĐẢO NGỮ (WORD ORDER)
+# ========================================================
+# Tính từ phổ biến đứng trước danh từ (huge, big, new...) -> Đảo lại
+(huge|big|large|small|great|red|blue|green|black|white|new|old|financial|traditional|digital)\s+(\w+)=$2 $1
+
+# Các đuôi tính từ đặc biệt (-al, -ive, -ble...)
+(\w+al)\s+(\w+)=$2 $1
+(\w+ive)\s+(\w+)=$2 $1
+(\w+ble)\s+(\w+)=$2 $1
+(\w+ous)\s+(\w+)=$2 $1
+(\w+ful)\s+(\w+)=$2 $1
+(\w+ent)\s+(\w+)=$2 $1
+
+# Sở hữu cách: My father's book -> book của My father
+(.+)'s\s+(.+)=$2 của $1
+
+# Cấu trúc So sánh & Phủ định
+more\s+(.+)\s+than=$1 hơn
+not (.+) anymore=không còn $1 nữa
+as (.+) as=như $1
+look forward to (.+)=mong đợi $1
+
+# ========================================================
+# 3. QUY TẮC 12 THÌ (TENSES) & BỊ ĐỘNG
+# ========================================================
+# Hoàn thành (Perfect): Have/Has/Had + V3 -> Đã
+(have|has|had)\s+(\w+)ed=đã $2
+(have|has|had)\s+(\w+)en=đã $2
+
+# Tiếp diễn (Continuous): Be + V-ing -> Đang
+(am|is|are|was|were|be)\s+(\w+)ing=đang $2
+
+# Tương lai (Future): Will + V -> Sẽ
+will\s+(.+)=sẽ $1
+shall\s+(.+)=sẽ $1
+(am|is|are)\s+going\s+to\s+(.+)=sắp $3
+
+# Bị động (Passive): Be + V-ed -> Được
+(is|am|are|was|were)\s+(\w+)ed=được $2
+(is|am|are|was|were)\s+(\w+)en=được $2
+will\s+be\s+(\w+)ed=sẽ được $1
+
+# Phủ định (Negative)
+did\s+not\s+(.+)=đã không $1
+didn't\s+(.+)=đã không $1
+will\s+not\s+(.+)=sẽ không $1
+won't\s+(.+)=sẽ không $1
+(have|has|had)\s+not\s+(\w+)ed=chưa $2

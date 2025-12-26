@@ -1,0 +1,14 @@
+cm=cm
+kg=kg
+km=km
+mm=mm
+ok=ok
+no=no
+email=email
+internet=internet
+website=website
+google=google
+android=android
+ios=ios
+chapter=chapter
+level=level
